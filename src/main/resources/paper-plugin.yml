@@ -1,0 +1,7 @@
+name: <name>
+version: "${version}"
+main: me.gaminglounge.<name>.<main>
+description: description
+api-version: "26.1.2"
+authors:
+  - "Jon1Games"

@@ -27,7 +27,7 @@ gitversioning will convert tag "vx.x.x"/"devx.x.x" to the version "x.x.x"/"devx.
 
 #### java version
 
-The Java version can be changed by edetiing this line:
+The Java version can be changed by editing this line:
 ```
 def targetJavaVersion = 25
 ```
@@ -50,3 +50,7 @@ gradle wrapper
 ### gradle publish
 
 By default this workflow triggers when an tag that stars with "v" or "dev" is created and only runs on self-hosted runners.
+
+## Java class paths and files
+
+change the folder structure and main.jar, then the corrosponding class paths in the former main.jar.
