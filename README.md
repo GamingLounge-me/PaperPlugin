@@ -37,6 +37,13 @@ def targetJavaVersion = 25
 The GitHubPackages repositories should always be available
 Other repositories can be added inside the repository array (`repository{...}`)
 
+### Generating gradle building files
+
+The generated files should be uploaded to github as they are used by the github runner and other users to build the project. 
+
+```
+gradle wrapper
+```
 
 ## workflows
 
