@@ -1,4 +1,4 @@
-# template_papermc
+# Paper Plugin
 This is an Template for Java Minecraft Paper plugins.
 This is spezialised for the GamingLounge organisation but can be used by anyone.
 Things other users should replace/remove:
