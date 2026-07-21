@@ -12,7 +12,7 @@ Things other users should replace/remove:
 
 ### settings.gradle
 
-- configure projekt name
+configure projekt name
 
 ### build.gradle
 
@@ -44,6 +44,13 @@ The generated files should be uploaded to github as they are used by the github 
 ```
 gradle wrapper
 ```
+
+## Paper Settings
+
+### src/main/resources/paper-plugin.yml
+
+configure projekt name, version, description, Authors and class.
+Optionally add dependencies and other paper-plugin.yml content
 
 ## workflows
 
